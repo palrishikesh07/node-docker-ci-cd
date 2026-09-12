@@ -1,4 +1,4 @@
-const repository = require("./../repositories/product.repository");
+const repository = require("../repositories/product.repository");
 
 const createProduct = async(data)=>{
     return repository.create(data);
